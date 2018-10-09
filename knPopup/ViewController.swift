@@ -18,7 +18,6 @@ class ViewController: UIViewController {
     }
     
     @objc func showReferralPopup() {
-        let pp = ReferralPopup()
-        pp.show(in: view)
+        ReferralPopup().show(in: view)
     }
 }
