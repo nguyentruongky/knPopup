@@ -1,3 +1,3 @@
 # knPopup
 
-Check how to display popup with your customize design at [https://kynguyen.space/2018/10/05/UI-popup.html](https://kynguyen.space/2018/10/05/UI-popup.html)
+Check how to display popup with your customize design at [https://www.codementor.io/nguyentruongky33/ui-implementation-popup-qqq2zbdsg)
