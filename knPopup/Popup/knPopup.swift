@@ -67,7 +67,11 @@ class knPopup: knView {
                 { [weak self] in
                     self?.view.scale(value: endValue)
                     self?.blackView.alpha = 0
-                }, completion: { [weak self] _ in self?.removeFromSuperview() })
+                }, completion: { [weak self] _ in
+                    self?.view.removeFromSuperview()
+                    self?.blackView.removeFromSuperview()
+                    self?.removeFromSuperview()
+            })
         }
         
         view.transform = view.transform.scaledBy(x: initialValue , y: initialValue)
